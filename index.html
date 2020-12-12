@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v5.2.0, https://mobirise.com -->
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid  #051ff9  ;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color:    #fdfdfa   ;
+}
+</style>
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
@@ -16,6 +33,7 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/datatables/data-tables.bootstrap4.min.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
@@ -32,7 +50,7 @@
         <div class="container-fluid">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="https://mobiri.se">
+                    <a href="#">
                         <img src="assets/images/imageedit-1-7809857368-96x81.png" alt="Mobirise" style="height: 4.4rem;">
                     </a>
                 </span>
@@ -47,11 +65,15 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-4" href="https://mobiri.se">
-                            ABOUT US</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-4" href="https://mobiri.se">
-                            TOPICS</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-4" href="https://mobiri.se">CONTACTS</a>
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+				    <li class="nav-item"><a class="nav-link link text-black display-4" href="#content6-9">ABOUT US</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black display-4" href="#content6-b">CALL FOR PAPERS</a></li>
+					<li class="nav-item"><a class="nav-link link text-black display-4" href="#content6-g">SPEAKERS</a></li>
+					<li class="nav-item"><a class="nav-link link text-black display-4" href="#content6-l">KEYDATES</a></li>
+					<li class="nav-item"><a class="nav-link link text-black display-4" href="#content6-k">SUBMISSION</a></li>
+					<li class="nav-item"><a class="nav-link link text-black display-4" href="#content6-m">REGISTRATION</a></li>
+					<li class="nav-item"><a class="nav-link link text-black display-4" href="#content6-n">COMMITTEE</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black display-4" href="#content6-o">CONTACTS</a>
                     </li></ul>
                 
                 
@@ -70,7 +92,7 @@
         <div class="row justify-content-center">
             <div class="col-12 col-lg-12">
                 <h1 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>
-</strong><div><strong>IEMPHYS 2021</strong></div><div><strong>International  Conference on ‘Condensed Matter Physics’</strong></div><div><strong>organized by
+</strong><div><strong>International  Conference on Advanced Physics</strong></div><div><strong>IEMPHYS 2021</strong></div><div><strong>organized by
 </strong></div><div><strong>Institute of Engineering &amp; Management, Kolkata
 </strong></div><div><strong>in collaboration with
 </strong></div><div><strong>Society of Physics Students(SPS) Chapter
@@ -78,7 +100,7 @@
 </strong></div><div><strong><br></strong></div></h1>
                 
                 
-                <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-4" href="https://mobiri.se">SUBMIT ABSTRACT</a></div>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-4" href="#">SUBMIT ABSTRACT</a></div>
             </div>
         </div>
     </div>
@@ -98,24 +120,31 @@
     </div>
 </section>
 
-<section class="image1 cid-shDUVFLZUJ mbr-fullscreen" id="image1-a">
+<section class="image1 cid-shDUVFLZUJ" id="image1-a">
     
 
     
 
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-5">
                 <div class="image-wrapper">
-                    <img src="assets/images/4.jpg" alt="Mobirise">
+                    <img src="assets/images/ctmse-for-website.jpg" alt="Mobirise">
                     
                 </div>
             </div>
             <div class="col-12 col-lg">
                 <div class="text-wrapper">
                     
-                    <p class="mbr-text mbr-fonts-style display-7">
-                        IEMPHYS-21 –  International  Conference on ‘Condensed Matter Physics’- will be organized by Department of Basic Science and Humanities,  Institute of Engineering &amp; Management (IEM) from 14th  – 16th  November, 2019 at IEM, Kolkata, India. IEMPHYS-19 aims to create a global platform for researchers, scientists, engineers and industrial experts in the field of Condensed Matter Physics to exchange and share their experiences, new ideas, and research results on different aspects of Condensed Matter Physics and discuss the practical challenges encountered and the solutions adopted. The conference aspires to exhibit the research and technical excellence of scientists and technocrats, representatives from the academia and industry. It will include talks and keynote lectures delivered by eminent speakers from reputed institutions, contributed oral paper presentations and poster presentations and workshops on advanced topics in Condensed Matter Physics. We sincerely hope that this serves as an international platform for meeting researchers from around the world, widen professional contact and create new opportunities, including establishing new collaborations. We are looking forward to seeing you at “IEMPHYS”.</p>
+                    <p class="mbr-text mbr-fonts-style display-4 " style="text-align: justify;">IEMPHYS-21 - International Conference in Advanced Physics is organized by Institute of Engineering &amp; Management, Kolkata, India in association with IEM Society of Physics Student Chapter (AIP) and Smart Society, USA from 1st to 3rd April, 2021 in online platform.
+<br>After the successful execution of IEMPHYS-19 – International Conference in Condensed Matter Physics, this is the second venture of Department of Basic Science &amp; Humanities, IEM in organising a conference in the Physics domain.
+<br>IEMPHYS-21 is an interdisciplinary forum on advanced topics of Physics like Solid State Physics, Nuclear Physics, High Energy Physics, Astrophysics, Computational Physics, Nano Science and Nano Technology, Biophysics, Optical system and photonic devices and Quantum Information Science.
+<br>
+<br>The success of IEMPHYS-19 has motivated us to organise IEMPHYS-21 - an international platform for researchers, eminent scientists and academicians to exchange their research work and innovative ideas in different advanced domains in Physics. The conference aspires to exhibit scientific paper presentations and poster presentations by scientific minds besides talks and keynote lectures by renowned scientists round the globe.
+<br>
+<br>Due to the global pandemic Covid -19 we have organised this year’s conference in digital platform keeping in mind the safety of all participants and speakers. We invite research paper submissions for oral and poster presentation. Abstracts of registered papers will be included in the conference abstract booklet. Full papers submitted will be published in International Journal of Innovative Research in Physics (IJIIP). 
+<br>
+<br>We hope IEMPHYS-21 will be a great learning opportunity and enriching experience for all participants.&nbsp;<br></p>
                 </div>
             </div>
         </div>
@@ -129,8 +158,22 @@
             <div class="col-md-12 col-lg-12">
                 <hr class="line">
                 <p class="mbr-text align-center mbr-fonts-style my-4 display-5">
-                    <strong>TOPICS</strong></p>
+                    <strong>CALL FOR PAPERS</strong></p>
                 <hr class="line">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-siX7fEfcND" id="content5-13">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-12">
+                
+                
+                <p class="mbr-text mbr-fonts-style display-7"><strong>
+                    IEMPHYS-21 is a platform for presentations of research papers in different advanced domains in Physics. The conference invites submission of papers on the topics given below but not limited to:</strong></p>
             </div>
         </div>
     </div>
@@ -241,6 +284,47 @@
     </div>
 </section>
 
+<section class="content5 cid-siX7grozN0" id="content5-14">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-12">
+                
+                
+                <p class="mbr-text mbr-fonts-style display-7"><strong>
+                    All full length papers submitted will be peer reviewed. Selected full length papers after peer review will be published. </strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content6 cid-siX95aldZi" id="content6-15">
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-12">
+                <hr class="line">
+                <p class="mbr-text align-center mbr-fonts-style my-4 display-5">
+                    <strong>PUBLICATION</strong></p>
+                <hr class="line">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-siX9hcbP2U" id="content5-16">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-12">
+                
+                
+                <p class="mbr-text mbr-fonts-style display-7">Full papers submitted will be peer reviewed and published in International Journal of Innovative Research in Physics (IJIIP) Published by Smart Society, USA (Print ISSN : 2689-484X, online ISSN: 2687-7902).</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="content6 cid-shE7QH5reu" id="content6-g">
     
     <div class="container-fluid">
@@ -331,6 +415,48 @@
     </div>
 </section>
 
+<section class="content5 cid-siX3hXimOu" id="content5-11">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-7"><strong>Abstract Submission Guidelines</strong></h4>
+                <p class="mbr-text mbr-fonts-style display-7"><strong>•	</strong>Abstract should be prepared in Microsoft Word.
+<br><strong>•	</strong>Please download the abstract template from the website.
+<br><strong>•	</strong>The deadline for abstract submission is 27/01/2021.
+<br><strong>•	</strong>Abstracts MUST be prepared in English.<br><strong>•	</strong>Abstracts should not exceed 250 words.(Text only).
+<br><strong>•	</strong>Maximum one figure and two references are allowed in the abstract.&nbsp;<br></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-siX46EV3Ha" id="content5-12">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-12">
+                
+                
+                <p class="mbr-text mbr-fonts-style display-7"><strong>Note:
+</strong><br><br>Full length papers submission is optional. Those who wants to participate and do not want publication, do not need to submit full length paper. Those who wish to opt for publication in international journal/conference proceedings with ISSN number should submit full length paper within due date. <strong>Full papers submitted will be published in International Journal of Innovative Research in Physics (IJIIP) Published by Smart Society, USA (Print ISSN 2689-484X, online ISSN: 2687-7902).</strong> Full paper should be written in the template given below in the website.
+<br><br>Please ensure that your e-mail address (ID) and mobile number is accurate at the time of submission. All correspondence will be sent via e-mail to the author. Should the author's e-mail address change after the submission deadline, please notify the convener at <strong>iemphys@iemcal.com</strong> to update this information. All presenters of selected abstracts are required to register and pay the appropriate registration fees.
+<br>Abstracts may be submitted for <strong>Oral or Poster Presentation</strong>.
+<br>
+<br><strong>Preparation of Abstracts
+</strong><br>A one page abstract should be prepared following the instruction given in the abstract template.<br>Download the abstract template <a href="assets/files/Abstract-template_IEMPHYS-21.docx" class="text-primary"><strong>HERE</strong></a><br>
+<br><strong>Electronic submission
+</strong><br>Abstracts must be submitted electronically. Deadline for submission of abstracts is 27/01/2021. Abstract can be submitted electronically through the online registration portal: Click <strong>HERE (</strong>COMING SOON<strong>)</strong> to submit your abstract .
+<br><br><strong>Notification of Acceptance</strong>
+<br>Authors of accepted abstract will be notified by 03/02/2021.  Selected abstract will be published in the abstract booklet.
+<br><br><strong>Full Paper Submission
+</strong><br>Download the Full Paper Submission Template by clicking on the link: <a href="assets/files/Template-IJIIP.docx" class="text-primary"><strong>HERE</strong></a> Submission of Full paper can be done through mail: <strong>iemphys@iemcal.com</strong>. For Full Paper related information, contact in the following address: <strong>iemphys@iemcal.com</strong>&nbsp;<br></p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="content6 cid-shHd8bcvrn" id="content6-l">
     
     <div class="container-fluid">
@@ -345,6 +471,81 @@
     </div>
 </section>
 
+<section class="section-table cid-siWdwZaqYE mbr-parallax-background" id="table1-10">
+
+  
+  <div class="mbr-overlay" style="opacity: 0; background-color: rgb(35, 35, 35);">
+  </div>
+  <div class="container container-table">
+      
+      
+      <div class="table-wrapper">
+        <div class="container">
+          
+        </div>
+
+        <div class="container scroll">
+          <table class="table" cellspacing="0" data-empty="No matching records found">
+            <!--<thead>
+              <tr class="table-heads ">
+                  
+                  
+                  
+                  
+              <th class="head-item mbr-fonts-style display-5">CATEGORY</th><th class="head-item mbr-fonts-style display-5">
+                      FEES</th></tr>
+            </thead>-->
+
+            <tbody>
+              
+              
+              
+              
+            <tr> 
+                
+                
+                
+                
+              <td class="body-item mbr-fonts-style display-7"><strong>Abstract Submission last date:</strong></td><td class="body-item mbr-fonts-style display-7"><strong>27th January,2021</strong></td></tr><tr> 
+                
+                
+                
+                
+              <td class="body-item mbr-fonts-style display-7"><strong>Abstract Submission last date:</strong></td><td class="body-item mbr-fonts-style display-7"><strong>3rd February,2021</strong></td></tr><tr> 
+                
+                
+                
+                
+              <td class="body-item mbr-fonts-style display-7"><strong>Full paper submission last date:</strong></td><td class="body-item mbr-fonts-style display-7"><strong>10th February,2021</strong></td></tr><tr> 
+                
+                
+                
+                
+              <td class="body-item mbr-fonts-style display-7"><strong>Notification of acceptance of full paper:</strong></td><td class="body-item mbr-fonts-style display-7"><strong>22nd February, 2021</strong></td></tr><tr> 
+                
+                
+                
+                
+              <td class="body-item mbr-fonts-style display-7"><strong>Registration:</strong></td><td class="body-item mbr-fonts-style display-7"><strong>24th February, 2021 – 10th March, 2021</strong></td></tr><tr> 
+                
+                
+                
+                
+              <td class="body-item mbr-fonts-style display-7"><strong>Early bird Registration:</strong></td><td class="body-item mbr-fonts-style display-7"><strong>Before 3rd March, 2021</strong></td></tr><tr> 
+                
+                
+                
+                
+              <td class="body-item mbr-fonts-style display-7"><strong>Late bird registration:</strong></td><td class="body-item mbr-fonts-style display-7"><strong>10th March, 2021</strong></td></tr></tbody>
+          </table>
+        </div>
+        <div class="container table-info-container">
+          
+        </div>
+      </div>
+    </div>
+</section>
+
 <section class="content6 cid-shHd8W0PHq" id="content6-m">
     
     <div class="container-fluid">
@@ -354,6 +555,95 @@
                 <p class="mbr-text align-center mbr-fonts-style my-4 display-5">
                     <strong>REGISTRATION</strong></p>
                 <hr class="line">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tabs content18 cid-siVZyBIcKR" id="tabs1-w">
+
+    
+
+    
+    <div class="container-fluid">
+        
+        <div class="row justify-content-center mt-4">
+            <div class="col-12 col-md-8">
+                <ul class="nav nav-tabs mb-4" role="tablist">
+                    <li class="nav-item first mbr-fonts-style"><a class="nav-link mbr-fonts-style show active display-7" role="tab" data-toggle="tab" href="#tabs1-w_tab0" aria-selected="true">
+                            <strong>Indian Participants</strong>
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link mbr-fonts-style active display-7" role="tab" data-toggle="tab" href="#tabs1-w_tab1" aria-selected="true"><strong>Foreign Participants</strong></a></li>
+                    
+                    
+                    
+                    
+                </ul>
+                <div class="tab-content">
+                    <div id="tab1" class="tab-pane in active" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="mbr-text mbr-fonts-style display-7"><strong>1. Faculty/Post Doc/ Scientists: </strong>Rs. 1500/- (Early Bird) &amp; Rs. 2500/- (Late Registration)
+<br><strong>2. Students: </strong>Rs. 1000/- (Early Bird) &amp; Rs. 2000/- (Late Registration)<strong>
+</strong><br><strong>3. Corporate: </strong>Rs. 12,000/- (Early Bird) &amp; Rs. 15,000/- (Late Registration)
+<br><strong>4. Participation Only:</strong> Rs. 500/-<strong>&nbsp;</strong><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab2" class="tab-pane" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="mbr-text mbr-fonts-style display-7"><strong>1. Faculty/Post Doc/ Scientists:</strong> $150 (Early Bird) &amp; $200 (late Registration)
+<br><strong>2. Students:</strong> $100 (Early Bird) &amp; $160 (Late Registration)
+<br><strong>3. Corporate:</strong> $200 (Early Bird) &amp; $300 (Late Registration)&nbsp;<br></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-siW0IUWvza" id="content5-x">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5"><strong>Payment Method</strong></h4>
+                <p class="mbr-text mbr-fonts-style display-7"><strong>NEFT :</strong> Registration fees can be paid by NEFT to the following bank account.
+<br><strong>Name of the Bank:</strong> IDBI Bank Ltd
+<br><strong>Branch:</strong> Sector-V
+<br><strong>Address of the Bank:</strong> D-1 Salt Lake Electronics Complex, Sector-V, Kolkata- 700091
+<br><strong>IFSC Code:</strong> IBKL0000184
+<br><strong>Party Name:</strong> Institute of Engineering &amp; Management Trust
+<br><strong>Account No:</strong> 184104000054214
+<br><strong>Type of Account:</strong> Savings
+<br>MICR 700259009
+<br>Transaction Details to be mailed at<strong> iemphys@iemcal.com</strong>
+<br>For any payment related issue mail at <strong>kartik.ghosh@iemcal.com</strong>
+<br><strong>Note:
+</strong><br><strong><em>• IFSC Code required for National Bank Transaction within India
+<br>• SWIFT Code required for International Bank Transaction&nbsp;</em></strong><br></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content4 cid-siWbtCr6Z4" id="content4-z">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7"><strong>Click here for Registration:</strong></h4>
+                <div class="mbr-section-btn align-center"><a class="btn btn-secondary display-4" href="https://mobiri.se">REGISTRATION</a></div>
             </div>
         </div>
     </div>
@@ -373,6 +663,102 @@
     </div>
 </section>
 
+<section class="content4 cid-siVVZPxefL" id="content4-t">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-12">
+                
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5"><strong>Organising Committee</strong></h4>
+				<table>
+	<tr>			
+  <td>Prof. Satyajit Chakrabarti</td>
+  <td>Chief Patron</td>
+  <td>President, IEM, Kolkata</td>
+  </tr>
+  <tr>
+  <td>Prof. Satyajit Chakrabarti</td>
+  <td>Chief Patron</td>
+  <td>Director, IEM, Kolkata</td>
+  </tr>
+  <tr>
+  <td>Prof. Dr. Arun Kumar Bar</td>
+  <td>Patron</td>
+  <td>Dean Engineering, IEM, Kolkata</td>
+  </tr>
+    <tr>
+  <td>Prof. Prabir Kr. Das</td>
+  <td>Conference Chair</td>
+  <td>IEM, Kolkata</td>
+  </tr>
+	    <tr>
+  <td>Prof. Dr. Saswati Barman</td>
+  <td>Conference Chair</td>
+  <td>IEM, Kolkata</td>
+  </tr>
+  <tr>
+  <td>Dr. Koyel Ganguly</td>
+  <td>Convener</td>
+  <td>IEM, Kolkata</td>
+  </tr>  <tr>
+  <td>Dr. Soumyadipta Pal</td>
+  <td>Convener</td>
+  <td>IEM, Kolkata</td>
+  </tr> 
+  <tr>
+  <td>Triparna Datta</td>
+  <td>Convener</td>
+  <td>IEM, Kolkata</td>
+  </tr> 
+  <tr>
+  <td>Amit Nandi</td>
+  <td>Coordinator</td>
+  <td>IEM, Kolkata</td>
+  </tr><tr>
+  <td>Arnab Basu</td>
+  <td>Publication in charge</td>
+  <td>IEM, Kolkata</td>
+  </tr>
+  <tr>
+  <td>Ranabir Banik</td>
+  <td>Publication in charge</td>
+  <td>IEM, Kolkata</td>
+  </tr>
+  <tr>
+  <td>Abhijit Kargupta</td>
+  <td>Publicity in charge</td>
+  <td>IEM, Kolkata</td>
+  </tr>
+
+</table>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content4 cid-siVW1ksErP" id="content4-u">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-12">
+                
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5"><strong>Advisory Committee</strong></h4>
+                <table>
+				<tr><td>Prof. Dibakar Roy Choudhury, IIT Roorkee</td></tr>
+	<tr><td>Prof. K.P.Ghatak, IEM, Kolkata</td></tr>
+	<tr><td>Prof. Ruchira Mukherjee, IEM, Kolkata</td></tr>
+<tr><td>Prof. Sharmistha Ghosh,	IEM, Kolkata</td></tr>
+<tr><td>Prof. Soumen Nandi,	IEM, Kolkata</td></tr>
+	
+               </table> 
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="content6 cid-shHdJY3gMb" id="content6-o">
     
     <div class="container-fluid">
@@ -382,6 +768,57 @@
                 <p class="mbr-text align-center mbr-fonts-style my-4 display-5">
                     <strong>CONTACT US</strong></p>
                 <hr class="line">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section contacts1 cid-siVTQNq2LS" id="contacts1-s">
+    <!---->
+    
+    <!---->
+    <!--Overlay-->
+    
+    <!--Container-->
+    <div class="container">
+        <div class="row">
+            <!--Titles-->
+            <div class="title col-12">
+                
+                
+            </div>
+            <!--Left-->
+            <div class="col-12 col-md-6">
+                <div class="left-block wrapper">
+                    <div class="b b-adress">
+                        <h5 class="align-left mbr-fonts-style m-0 display-5"><strong>
+                            Address</strong>:
+                        </h5>
+                        <p class="mbr-text align-left mbr-fonts-style display-7">IEM, Management House
+<br>D -1, EP Block, Sector V, Bidhannagar, Kolkata, West Bengal 700091</p>
+                    </div>
+                    <div class="b b-phone">
+                        <h5 class="align-left mbr-fonts-style m-0 display-5"><strong>
+                            Phone</strong>:
+                        </h5>
+                        <p class="mbr-text align-left mbr-fonts-style display-7"><strong>Dr. Koyel Ganguly </strong>(koyel.ganguly@iemcal.com),
+<br>Mobile:  +919830196528
+<br><strong>Dr. Soumyadipta Pal </strong>(soumyadipta.pal@iemcal.com),
+<br>Mobile: +918017244056<strong> 
+</strong><br><strong>                              Prof. Triparna Datta </strong>(triparna.datta@iemcal.com)
+<br>                                                      Mobile: +919830956538&nbsp;<br></p>
+                    </div>
+                    <div class="b b-mail">
+                        <h5 class="align-left mbr-fonts-style m-0 display-5"><strong>
+                            E-mail</strong>:
+                        </h5>
+                        <p class="mbr-text align-left mbr-fonts-style display-7">iemphys@iemcal.com<br></p>
+                    </div>
+                </div>
+            </div>
+            <!--Right-->
+            <div class="col-12 col-md-6">
+                <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.1252655908934!2d88.43158931489658!3d22.574417785181794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275bb4df8a60d%3A0x905231d91b918a3!2sInstitute%20of%20Engineering%20%26%20Management!5e0!3m2!1sen!2sin!4v1594222933273!5m2!1sen!2sin" allowfullscreen=""></iframe></div>
             </div>
         </div>
     </div>
@@ -397,12 +834,14 @@
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © Copyright 2021 IEMPHYS - All Rights Reserved<br>Designed &amp; Developed by <strong><a href="https://www.linkedin.com/in/agniva-chatterjee-meawtech/" class="text-success">Agniva Chatterjee</a></strong><br>
+                    © Copyright 2021 IEMPHYS - All Rights Reserved<br>Designed &amp; Developed by <a href="https://www.linkedin.com/in/agniva-chatterjee-meawtech/" class="text-success"><strong>Agniva Chatterjee</strong></a><br>
                 </p>
             </div>
         </div>
     </div>
-</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/n" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Site <a href="https://mobirise.site/f" style="color:#aaa;">was designed</a> with Mobirise</p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section>
+<section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: none;"><a href="https://mobirise.site/n" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Site <a href="https://mobirise.site/f" style="color:#aaa;">was designed</a> with Mobirise</p></section>
+<script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/datatables/jquery.data-tables.min.js"></script>  <script src="assets/datatables/data-tables.bootstrap4.min.js"></script>  <script src="assets/mbr-tabs/mbr-tabs.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
 </body>
